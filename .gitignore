@@ -5,7 +5,14 @@
 node_modules/
 dist/
 build/
+.next/
+out/
+.tsbuildinfo
+*.tsbuildinfo
 *.log
 .idea/
 .vscode/
 *.local
+.vercel
+screenshots/
+screenshots-*/

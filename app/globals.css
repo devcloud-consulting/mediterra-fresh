@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fdfbf6;
+  --bg-deep: #f6f1e4;
+  --fg: #2f3a1d;
+  --muted: #6b7659;
+  --accent: #5b722c;
+  --accent-warm: #bf6638;
+  --rule: rgba(47, 58, 29, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+html[dir='rtl'] body {
+  font-family: var(--font-noto-arabic), Tahoma, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-feature-settings: 'ss01' on, 'cv11' on, 'cv05' on;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* -- Typography utilities -- */
+.font-display {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-feature-settings: 'ss01' on, 'cv05' on, 'salt' on;
+  font-optical-sizing: auto;
+}
+
+.headline-xl {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-weight: 350;
+  letter-spacing: -0.025em;
+  line-height: 0.95;
+  font-size: clamp(2.5rem, 5.5vw + 1rem, 6rem);
+  font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 0;
+}
+
+.headline-lg {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-weight: 380;
+  letter-spacing: -0.02em;
+  line-height: 1.02;
+  font-size: clamp(2rem, 3.6vw + 1rem, 4rem);
+  font-variation-settings: 'opsz' 96, 'SOFT' 50;
+}
+
+.headline-md {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-weight: 420;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  font-size: clamp(1.5rem, 2vw + 0.8rem, 2.25rem);
+  font-variation-settings: 'opsz' 36, 'SOFT' 60;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* -- Subtle backgrounds -- */
+.bg-grain {
+  background-image:
+    radial-gradient(rgba(91, 114, 44, 0.06) 1px, transparent 1px),
+    radial-gradient(rgba(191, 102, 56, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px, 16px 16px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Film-like paper texture overlay applied with mix-blend-mode on dark sections */
+.bg-paper {
+  background-color: var(--bg-deep);
+  background-image:
+    radial-gradient(rgba(47, 58, 29, 0.05) 1px, transparent 1.5px),
+    radial-gradient(rgba(191, 102, 56, 0.04) 1px, transparent 1px);
+  background-size: 22px 22px, 14px 14px;
+  background-position: 0 0, 11px 11px;
+}
+
+/* -- Decorative product placeholder when image is missing -- */
+.product-placeholder {
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.55), transparent 55%),
+    linear-gradient(135deg, var(--accent-color, #5b722c) 0%, color-mix(in srgb, var(--accent-color, #5b722c) 60%, #000) 100%);
+  position: relative;
+}
+.product-placeholder::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(rgba(255, 255, 255, 0.18) 1px, transparent 1.5px),
+    radial-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1.5px);
+  background-size: 14px 14px, 9px 9px;
+  background-position: 0 0, 7px 7px;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+/* -- Image cards: tasteful zoom + warm overlay -- */
+.tile-image {
+  transition: transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1), filter 0.9s ease;
+}
+.group:hover .tile-image,
+.group:focus-within .tile-image {
+  transform: scale(1.04);
+  filter: saturate(1.05);
+}
+.tile-overlay {
+  background: linear-gradient(to top,
+    rgba(15, 23, 5, 0.78) 0%,
+    rgba(15, 23, 5, 0.32) 35%,
+    rgba(15, 23, 5, 0) 70%);
+}
+
+/* -- Skip link -- */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  inset-inline-start: 0;
+  background: #2f3a1d;
+  color: white;
+  padding: 8px 16px;
+  z-index: 100;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* -- Scrollbar utilities -- */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+/* -- Reveal animation --
+ *  Pure CSS, plays once on element mount. Progressive enhancement:
+ *  without JS (or before hydration), content is visible by default.
+ *  With JS, the animation kicks in for a tasteful fade-and-lift on entry.
+ */
+@keyframes revealUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+html.js .reveal {
+  animation: revealUp 0.85s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+html.js .reveal[data-delay="1"] { animation-delay: 0.08s; }
+html.js .reveal[data-delay="2"] { animation-delay: 0.16s; }
+html.js .reveal[data-delay="3"] { animation-delay: 0.24s; }
+html.js .reveal[data-delay="4"] { animation-delay: 0.32s; }
+html.js .reveal[data-delay="5"] { animation-delay: 0.40s; }
+
+/* -- Vertical rule with eyebrow -- */
+.section-rule {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.section-rule::before {
+  content: '';
+  width: 28px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.6;
+}
+
+/* -- Marquee for ticker -- */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee {
+  display: flex;
+  gap: 3rem;
+  animation: marquee 40s linear infinite;
+  width: max-content;
+}
+html[dir='rtl'] .marquee {
+  animation-name: marquee-rtl;
+}
+@keyframes marquee-rtl {
+  from { transform: translateX(0); }
+  to { transform: translateX(50%); }
+}
+
+/* -- Legal pages -- */
+.prose-legal h3 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 1.375rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2f3a1d;
+  font-weight: 450;
+  letter-spacing: -0.01em;
+}
+.prose-legal h4 {
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  color: #3a4720;
+}
+.prose-legal p { margin-bottom: 0.75rem; }
+.prose-legal ul {
+  list-style: disc;
+  padding-inline-start: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.prose-legal ul li { margin-bottom: 0.25rem; }
+.prose-legal a {
+  color: #5b722c;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* -- Reduced motion -- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+  .marquee {
+    animation: none;
+  }
+}

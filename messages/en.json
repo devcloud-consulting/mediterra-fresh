@@ -1,0 +1,340 @@
+{
+  "nav": {
+    "home": "Home",
+    "catalogue": "Catalogue",
+    "why": "Why us",
+    "references": "References",
+    "blog": "News",
+    "contact": "Contact",
+    "skipToContent": "Skip to content",
+    "menu": "Menu",
+    "close": "Close",
+    "switchLanguage": "Switch language"
+  },
+  "cta": {
+    "requestQuote": "Request a quote",
+    "whatsapp": "Chat on WhatsApp",
+    "call": "Call us",
+    "email": "Email us",
+    "browseCatalog": "Browse catalogue",
+    "freeSample": "Get a free sample basket",
+    "downloadCatalog": "Download PDF catalogue",
+    "becomeClient": "Become a client"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "B2B supplier • Marrakech & Agadir",
+      "title": "Moroccan freshness, delivered to your kitchen every morning.",
+      "subtitle": "Fruits and vegetables hand-picked from the Souss region and Moroccan terroirs, calibrated to your specs. For hotels, restaurants, pâtisseries, and riads.",
+      "primaryCta": "Get a free sample basket",
+      "secondaryCta": "Browse catalogue",
+      "trustBadges": {
+        "coldChain": "Controlled cold chain",
+        "dailyDelivery": "Daily delivery 6–10 AM",
+        "directProducer": "Direct from grower"
+      }
+    },
+    "valueProp": {
+      "title": "One supplier. All the freshness Morocco has to offer.",
+      "body": "We source directly from growers in the Souss, Haouz and Gharb plains, run quality control at packing, and deliver before your morning service. No more stockouts, inconsistent calibres, or tired produce."
+    },
+    "differentiators": {
+      "title": "Why chefs choose us",
+      "items": [
+        {
+          "title": "Picked yesterday, delivered this morning",
+          "body": "Harvest D-1, packing in the evening, delivery between 6 and 10 AM in Marrakech intra-muros and Agadir bay."
+        },
+        {
+          "title": "Custom calibres and packaging",
+          "body": "You choose the calibre, case weight, and packaging. We adapt to your spec sheet."
+        },
+        {
+          "title": "Field-to-plate traceability",
+          "body": "Every batch carries the origin, harvest date, and grower name. GlobalGAP available on request."
+        },
+        {
+          "title": "A dedicated contact, on WhatsApp",
+          "body": "Your account manager replies in French, English or Arabic — Monday through Saturday."
+        }
+      ]
+    },
+    "categories": {
+      "title": "Our range",
+      "subtitle": "Seven product families, more than 80 SKUs.",
+      "viewAll": "View full catalogue"
+    },
+    "testimonialsTitle": "Trusted by",
+    "testimonialsEmpty": "Our first reference clients are coming on board. Be among the first to taste — request a sample basket.",
+    "ctaBanner": {
+      "title": "Taste before you order.",
+      "subtitle": "We deliver a free sample basket to your venue. No commitment.",
+      "button": "Request a basket"
+    },
+    "process": {
+      "eyebrow": "Our chain",
+      "title": "From a Moroccan orchard to your kitchen, in under 24 hours.",
+      "subtitle": "A short, controlled, traceable operation. Three steps — never more.",
+      "steps": [
+        {
+          "tag": "Step 01 — D-1, afternoon",
+          "title": "Hand-picked in the Souss",
+          "body": "Our partner growers pick to order, at peak ripeness. Every pallet is weighed, origin-labelled, and ships the same evening."
+        },
+        {
+          "tag": "Step 02 — D-1, evening",
+          "title": "Calibrated and packed at 4 °C",
+          "body": "Reception in Sidi Ghanem, visual and organoleptic QC, calibres matched to your spec sheet, packing in HACCP-compliant cold rooms."
+        },
+        {
+          "tag": "Step 03 — Day, 6–10 AM",
+          "title": "Delivered before service",
+          "body": "Probe-monitored refrigerated vans, slot confirmed the day before via WhatsApp. Marrakech intra-muros and Agadir bay, six days a week."
+        }
+      ],
+      "cta": "See our process"
+    },
+    "valueImageAlt": "Hand-harvesting an orange in the Souss orchard"
+  },
+  "catalogue": {
+    "title": "Product catalogue",
+    "subtitle": "More than 80 SKUs, organised by family. Calibres, packaging, and seasonality listed for every product.",
+    "filters": {
+      "all": "All",
+      "inSeason": "In season",
+      "organic": "Organic"
+    },
+    "labels": {
+      "origin": "Origin",
+      "calibres": "Calibres",
+      "packaging": "Packaging",
+      "seasonality": "Seasonality",
+      "availableNow": "Available now",
+      "outOfSeason": "Out of season",
+      "organic": "Organic available",
+      "globalgap": "GlobalGAP"
+    },
+    "categories": {
+      "agrumes": {
+        "name": "Citrus",
+        "description": "Oranges, mandarins, lemons and clementines from Souss and Berkane.",
+        "story": "Berkane in the east and the Souss plain in the south: two Moroccan terroirs that produce some of the most sought-after citrus in the Mediterranean basin. Tight calibres, high juiciness, plot-level traceability.",
+        "uses": "Pastry kitchens, juice bars, breakfast trays, restaurant sauces and dressings.",
+        "handling": "Store between 5 and 8 °C. Take out of cold storage one hour before service to release aromas."
+      },
+      "fruits-rouges": {
+        "name": "Berries",
+        "description": "Strawberries from Larache, raspberries and blueberries from the Gharb.",
+        "story": "The Gharb and Larache concentrate most of Morocco's berry production. Hand-picked at peak ripeness, packed in chilled punnets within 2 hours.",
+        "uses": "Fine-dining pastry, dessert plating, smoothies, room-service mignardises.",
+        "handling": "Strict cold chain at 2–4 °C. Shelf life 3–5 days. Never wash before storage."
+      },
+      "fruits-exotiques": {
+        "name": "Exotic fruits",
+        "description": "Avocados, mangoes, passion fruit, papayas.",
+        "story": "Moroccan Hass avocado (Gharb, Loukkos) is now a fixture on palace menus. For other exotics, we complement with selected sources (Ivory Coast, Peru, Brazil) by season.",
+        "uses": "Tartares, ceviches, fruit platters, signature smoothies, fish accompaniments.",
+        "handling": "Controlled ripening on request (avocado, mango). Delivery at chosen ripening stage to match your service schedule."
+      },
+      "fruits-saison": {
+        "name": "Seasonal fruits",
+        "description": "Moroccan apples, pears, grapes, melons and watermelons.",
+        "story": "Midelt and Imouzzer orchards for highland apples and pears, Doukkala and Souss for melons and grapes. A rich seasonality that covers the year through variety rotation.",
+        "uses": "Breakfast buffets, service platters, fruit salads, seasonal desserts.",
+        "handling": "Storage between 4 and 10 °C depending on the fruit. Apples and pears keep up to 30 days."
+      },
+      "legumes-feuilles": {
+        "name": "Leafy vegetables",
+        "description": "Lettuces, spinach, chard, cabbages.",
+        "story": "Short-circuit production from the Haouz and Skhirat, largely greenhouse-grown to guarantee consistent quality and out-of-season availability.",
+        "uses": "Amuse-bouches, salads, garnishes, green smoothies, pestos.",
+        "handling": "Cold chain at 2–4 °C. Hydration controlled during transit. Optimal shelf life 3–5 days."
+      },
+      "legumes-racines": {
+        "name": "Root vegetables & bulbs",
+        "description": "Carrots, potatoes, onions, turnips, beetroots.",
+        "story": "Doukkala, Berrechid, Saïs: Morocco's main root vegetable basins. Even calibres, brushed earth, packaging to suit kitchens (sacks, cases, paloxx).",
+        "uses": "Stews, garnishes, glazed vegetables, soups, condiments, juices.",
+        "handling": "Dry storage between 8 and 12 °C, away from light. Excellent shelf life (15–30 days depending on the item)."
+      },
+      "herbes": {
+        "name": "Aromatic herbs",
+        "description": "Coriander, parsley, mint, basil, thyme, rosemary.",
+        "story": "Naânaâ mint from Meknès, Genovese basil from our Souss greenhouses, wild thyme and rosemary from the Atlas. Daily cutting, bunches calibrated by weight.",
+        "uses": "Tajines, salads, mint tea infusions, garnishes, flavoured oils, mignardises.",
+        "handling": "Delivered in moistened bunches. Store between 4 and 8 °C wrapped in damp cloth. Shelf life 2–4 days."
+      }
+    },
+    "months": {
+      "1": "Jan", "2": "Feb", "3": "Mar", "4": "Apr", "5": "May", "6": "Jun",
+      "7": "Jul", "8": "Aug", "9": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+    },
+    "detail": {
+      "backToCatalogue": "Back to catalogue",
+      "category": "Category",
+      "specs": "Specifications",
+      "story": "Origin & terroir",
+      "uses": "Kitchen recommendations",
+      "handling": "Storage",
+      "seasonality": "Seasonal calendar",
+      "inSeasonNow": "In season this month",
+      "outOfSeasonNow": "Out of season this month",
+      "related": "Other references in this category",
+      "quoteThisProduct": "Request a quote for this reference",
+      "downloadFiche": "Download product sheet"
+    }
+  },
+  "why": {
+    "title": "Why Mediterra Fresh",
+    "subtitle": "Four operational commitments that change your day in the kitchen.",
+    "sections": {
+      "coldChain": {
+        "title": "Controlled cold chain",
+        "body": "Storage at 4°C in our cold rooms in Sidi Ghanem, transport in monitored refrigerated vans (connected probes), minimal handling. HACCP-compliant."
+      },
+      "delivery": {
+        "title": "Daily delivery, guaranteed slot",
+        "body": "Marrakech intra-muros, Palmeraie, Targa: 6–10 AM. Agadir bay and Founty: 6–10 AM. Slot confirmed the day before via WhatsApp. 7-day delivery available in high tourist season."
+      },
+      "moq": {
+        "title": "Accessible minimum order",
+        "body": "From 800 MAD ex-VAT in Marrakech, 1,000 MAD ex-VAT in Agadir. No minimum per SKU. Works for small riads and large resorts alike."
+      },
+      "payment": {
+        "title": "Flexible payment terms",
+        "body": "Cash on delivery, 15 or 30-day bank transfer subject to credit, card payment on request. Weekly or monthly invoicing aligned with your accounting cycle."
+      },
+      "certifications": {
+        "title": "Certifications and traceability",
+        "body": "ONSSA on every product. GlobalGAP and Bio Maroc available on eligible SKUs. Traceability sheet attached to each delivery on request."
+      },
+      "zones": {
+        "title": "Delivery zones",
+        "body": "Marrakech (30 km radius), Agadir (25 km radius), Essaouira and Taroudant on request. We assess your zone if you're elsewhere in Morocco."
+      }
+    },
+    "stats": {
+      "items": [
+        { "value": "80+", "label": "SKUs in catalogue" },
+        { "value": "< 24h", "label": "from field to kitchen" },
+        { "value": "6 days/wk", "label": "standard delivery" },
+        { "value": "100%", "label": "ONSSA-certified products" }
+      ]
+    }
+  },
+  "references": {
+    "title": "References",
+    "subtitle": "Trust is earned. We list here only the venues that have given written permission.",
+    "empty": "Our commercial team is building its first references. You can be one of the pilot venues — get in touch for preferential terms.",
+    "segmentsTitle": "The kitchens we supply",
+    "segmentsBody": "Our offer is calibrated for venues that don't tolerate compromise on quality. Here are the six segments we commit to deliver every morning.",
+    "segments": {
+      "hotels": { "title": "4–5 star hotels & resorts", "body": "Daily breakfast buffets, banquets, room service. Uniform calibres, delivery before 9 a.m." },
+      "riads": { "title": "Riads & guesthouses", "body": "Smaller volumes, identical standards. Monday–Saturday delivery within central Marrakech." },
+      "restaurants": { "title": "Fine-dining restaurants", "body": "Short-circuit sourcing, precise calibres, bouquet herbs, rare seasonal fruits on request." },
+      "patisseries": { "title": "Pastries & artisan bakeries", "body": "Berries, citrus, exotics sourced for pastry work. Tight calibres, certified freshness." },
+      "juiceBars": { "title": "Juice bars & wellness cafés", "body": "Daily citrus and seasonal fruit volumes, smoothie-grade vegetables, controlled food cost." },
+      "catering": { "title": "Event catering", "body": "Weddings, conferences, cocktails. Quotes for one-off volumes, on-site delivery, custom packaging." }
+    },
+    "pilotEyebrow": "2025 pilot program",
+    "pilotTitle": "Be among our first partners.",
+    "pilotBody": "We're starting with a limited number of clients so we can guarantee a level of service we won't dilute. In return, our pilot partners benefit from enhanced terms and dedicated support for 6 months.",
+    "pilotBenefits": [
+      "Preferential pricing locked for 6 months",
+      "Priority 6 a.m.–10 a.m. delivery slot, 30-minute window",
+      "Direct WhatsApp line to our operations lead",
+      "Free menu audit with seasonal recommendations",
+      "Monthly reporting: service rate, savings vs. competitors"
+    ],
+    "pilotCta": "Apply as a pilot partner",
+    "commitmentsEyebrow": "Verifiable commitments",
+    "commitmentsTitle": "What we put in writing.",
+    "commitments": [
+      { "value": "≤ 2h", "label": "Response to any quote request, Monday to Saturday" },
+      { "value": "6–10 a.m.", "label": "Daily delivery window across central Marrakech and the Agadir bay" },
+      { "value": "≥ 98%", "label": "Contractual service rate, measured and reported monthly" },
+      { "value": "100%", "label": "Traceable goods — origin, batch, harvest date on every delivery slip" }
+    ]
+  },
+  "blog": {
+    "title": "News & calendars",
+    "subtitle": "Seasonal calendars, product tips, and behind-the-scenes from our growers.",
+    "readMore": "Read article",
+    "publishedOn": "Published",
+    "comingSoon": "Coming soon",
+    "categories": {
+      "seasonality": "Seasonality",
+      "supply": "Supply",
+      "calibres": "Calibres & quality"
+    },
+    "minutes": "min read",
+    "newsletterTitle": "Get our seasonal calendars",
+    "newsletterBody": "A monthly letter, no noise: what's available now, product tips, key dates."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Reply within 2 business hours, Monday to Saturday.",
+    "channels": {
+      "whatsapp": "WhatsApp Business — fast reply, in 3 languages",
+      "phone": "Phone — sales team",
+      "email": "Email — quotes and technical questions",
+      "address": "Address — visits by appointment"
+    },
+    "form": {
+      "title": "Contact form",
+      "subtitle": "Describe your need, we'll come back to you with a proposal.",
+      "name": "Full name",
+      "company": "Venue / company",
+      "role": "Role",
+      "city": "City",
+      "phone": "Phone",
+      "email": "Work email",
+      "message": "Your need (volumes, frequency, products)",
+      "consent": "I agree to be contacted about my request. My data will not be shared with third parties (Law 09-08).",
+      "submit": "Send request",
+      "success": "Thanks — your request has been received. We'll reply within 2 business hours.",
+      "error": "Something went wrong. Please contact us directly on WhatsApp."
+    }
+  },
+  "footer": {
+    "tagline": "B2B fresh produce supplier — Marrakech & Agadir.",
+    "navTitle": "Navigation",
+    "legalTitle": "Legal",
+    "contactTitle": "Contact",
+    "newsletter": {
+      "title": "Seasonal newsletter",
+      "body": "Harvest calendars and catalogue news, once a month.",
+      "placeholder": "Your work email",
+      "submit": "Subscribe"
+    },
+    "links": {
+      "mentions": "Legal notice",
+      "privacy": "Privacy policy",
+      "cgv": "Terms of sale",
+      "cookies": "Cookies"
+    },
+    "rights": "All rights reserved."
+  },
+  "legal": {
+    "mentions": {
+      "title": "Legal notice",
+      "lastUpdate": "Last updated"
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "lastUpdate": "Last updated"
+    },
+    "cgv": {
+      "title": "Terms of sale",
+      "lastUpdate": "Last updated"
+    }
+  },
+  "common": {
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Hours",
+    "openWhatsapp": "Open WhatsApp",
+    "back": "Back"
+  }
+}

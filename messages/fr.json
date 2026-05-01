@@ -1,0 +1,340 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "catalogue": "Catalogue",
+    "why": "Pourquoi nous",
+    "references": "Références",
+    "blog": "Actualités",
+    "contact": "Contact",
+    "skipToContent": "Aller au contenu",
+    "menu": "Menu",
+    "close": "Fermer",
+    "switchLanguage": "Changer de langue"
+  },
+  "cta": {
+    "requestQuote": "Demander un devis",
+    "whatsapp": "Discuter sur WhatsApp",
+    "call": "Nous appeler",
+    "email": "Envoyer un email",
+    "browseCatalog": "Voir le catalogue",
+    "freeSample": "Recevoir un panier d'échantillons",
+    "downloadCatalog": "Télécharger le catalogue PDF",
+    "becomeClient": "Devenir client"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Fournisseur B2B • Marrakech & Agadir",
+      "title": "Le frais marocain, livré chaque matin à votre cuisine.",
+      "subtitle": "Fruits et légumes sélectionnés du Souss et des terroirs marocains, calibrés selon vos exigences. Pour hôtels, restaurants, pâtisseries et riads.",
+      "primaryCta": "Recevoir un panier d'échantillons",
+      "secondaryCta": "Voir le catalogue",
+      "trustBadges": {
+        "coldChain": "Chaîne du froid maîtrisée",
+        "dailyDelivery": "Livraison quotidienne 6h–10h",
+        "directProducer": "Direct producteur"
+      }
+    },
+    "valueProp": {
+      "title": "Un seul fournisseur, toute la fraîcheur du Maroc.",
+      "body": "Nous sourçons directement chez les producteurs des plaines du Souss, du Haouz et du Gharb, contrôlons la qualité au conditionnement, et livrons chez vous avant le service du matin. Fini les ruptures, les calibres aléatoires, et les marchandises fatiguées."
+    },
+    "differentiators": {
+      "title": "Pourquoi les chefs nous choisissent",
+      "items": [
+        {
+          "title": "Cueilli la veille, livré le matin",
+          "body": "Récolte J-1, conditionnement le soir, livraison entre 6h et 10h dans Marrakech intra-muros et la baie d'Agadir."
+        },
+        {
+          "title": "Calibres et conditionnements sur mesure",
+          "body": "Vous choisissez le calibre, le poids du carton, l'emballage. Nous adaptons à votre fiche technique."
+        },
+        {
+          "title": "Traçabilité du champ à l'assiette",
+          "body": "Chaque lot porte l'origine, la date de récolte, et le producteur. GlobalGAP en option."
+        },
+        {
+          "title": "Un interlocuteur dédié, sur WhatsApp",
+          "body": "Votre commercial répond en français, anglais, ou arabe — du lundi au samedi."
+        }
+      ]
+    },
+    "categories": {
+      "title": "Notre gamme",
+      "subtitle": "Sept familles de produits, plus de 80 références.",
+      "viewAll": "Voir tout le catalogue"
+    },
+    "testimonialsTitle": "Ils nous font confiance",
+    "testimonialsEmpty": "Nos premières références arrivent. Soyez parmi les premiers à goûter — demandez un panier d'échantillons.",
+    "ctaBanner": {
+      "title": "Goûtez avant de commander.",
+      "subtitle": "Nous livrons un panier d'échantillons gratuit à votre établissement. Sans engagement.",
+      "button": "Demander un panier"
+    },
+    "process": {
+      "eyebrow": "Notre chaîne",
+      "title": "Du verger marocain à votre cuisine, en moins de 24 heures.",
+      "subtitle": "Une opération courte, contrôlée et traçable. Trois étapes — pas une de plus.",
+      "steps": [
+        {
+          "tag": "Étape 01 — J-1, après-midi",
+          "title": "Récolté à la main dans le Souss",
+          "body": "Nos producteurs partenaires cueillent à la commande, à la maturité optimale. Chaque palette est pesée, étiquetée à l'origine, et part le soir même."
+        },
+        {
+          "tag": "Étape 02 — J-1, soir",
+          "title": "Calibré et conditionné à 4 °C",
+          "body": "Réception à Sidi Ghanem, contrôle qualité visuel et organoleptique, calibrage selon votre fiche technique, conditionnement en chambre froide HACCP."
+        },
+        {
+          "tag": "Étape 03 — Jour J, 6h–10h",
+          "title": "Livré avant le service",
+          "body": "Camions frigorifiques sondés, créneau confirmé la veille par WhatsApp. Marrakech intra-muros et Agadir baie, six jours sur sept."
+        }
+      ],
+      "cta": "Voir notre démarche"
+    },
+    "valueImageAlt": "Récolte d'orange à la main au verger du Souss"
+  },
+  "catalogue": {
+    "title": "Catalogue produits",
+    "subtitle": "Plus de 80 références, organisées par famille. Calibres, conditionnements et saisonnalité indiqués pour chaque produit.",
+    "filters": {
+      "all": "Tout",
+      "inSeason": "De saison",
+      "organic": "Bio"
+    },
+    "labels": {
+      "origin": "Origine",
+      "calibres": "Calibres",
+      "packaging": "Conditionnement",
+      "seasonality": "Saisonnalité",
+      "availableNow": "Disponible maintenant",
+      "outOfSeason": "Hors saison",
+      "organic": "Bio disponible",
+      "globalgap": "GlobalGAP"
+    },
+    "categories": {
+      "agrumes": {
+        "name": "Agrumes",
+        "description": "Oranges, mandarines, citrons et clémentines du Souss et de Berkane.",
+        "story": "Berkane, à l'est, et la plaine du Souss au sud : deux terroirs marocains qui produisent les agrumes les plus recherchés du bassin méditerranéen. Calibres serrés, jutosité élevée, traçabilité parcellaire.",
+        "uses": "Pâtisseries, bars à jus, plateaux petit-déjeuner, sauces et vinaigrettes au restaurant.",
+        "handling": "Conserver entre 5 et 8 °C. À sortir de la chambre froide une heure avant service pour relâcher les arômes."
+      },
+      "fruits-rouges": {
+        "name": "Fruits rouges",
+        "description": "Fraises de Larache, framboises et myrtilles du Gharb.",
+        "story": "Le Gharb et Larache concentrent l'essentiel de la production marocaine de fruits rouges. Récolte manuelle au plus juste de la maturité, conditionnement en barquettes refroidies sous 2 heures.",
+        "uses": "Pâtisserie haut de gamme, dressage de desserts, smoothies, mignardises de room-service.",
+        "handling": "Chaîne du froid impérative à 2–4 °C. Durée de vie 3 à 5 jours. Ne jamais laver avant stockage."
+      },
+      "fruits-exotiques": {
+        "name": "Fruits exotiques",
+        "description": "Avocats, mangues, fruits de la passion, papayes.",
+        "story": "L'avocat Hass marocain (Gharb, Loukkos) s'impose désormais sur les cartes des palaces. Pour les autres exotiques, nous complétons par des sources sélectionnées (Côte d'Ivoire, Pérou, Brésil) selon la saison.",
+        "uses": "Tartares, ceviches, plateaux de fruits, smoothies signature, accompagnements de poissons.",
+        "handling": "Mûrissement contrôlé sur demande (avocat, mangue). Livraison à différents stades de maturité selon votre planning de service."
+      },
+      "fruits-saison": {
+        "name": "Fruits de saison",
+        "description": "Pommes, poires, raisins, melons et pastèques marocains.",
+        "story": "Les vergers de Midelt et d'Imouzzer pour les pommes et poires d'altitude, Doukkala et Souss pour les melons et raisins. Une saisonnalité riche qui couvre toute l'année avec rotation des variétés.",
+        "uses": "Buffets de petit-déjeuner, plateaux de service, salades de fruits, desserts de saison.",
+        "handling": "Stockage entre 4 et 10 °C selon le fruit. Pommes et poires se conservent jusqu'à 30 jours."
+      },
+      "legumes-feuilles": {
+        "name": "Légumes feuilles",
+        "description": "Salades, épinards, blettes, choux.",
+        "story": "Production en circuit court depuis le Haouz et Skhirat, en grande partie sous serre pour garantir la constance qualitative et la disponibilité hors saison naturelle.",
+        "uses": "Mises en bouche, salades, garnitures, smoothies verts, pestos.",
+        "handling": "Chaîne du froid à 2–4 °C. Hydratation contrôlée pendant le transport. Durée optimale 3–5 jours."
+      },
+      "legumes-racines": {
+        "name": "Légumes racines & bulbes",
+        "description": "Carottes, pommes de terre, oignons, navets, betteraves.",
+        "story": "Doukkala, Berrechid, Saïs : les grands bassins marocains de légumes racines. Calibres réguliers, terre brossée, conditionnement adapté aux cuisines (sacs, caisses, palox).",
+        "uses": "Mijotés, garnitures, légumes glacés, soupes, condiments, jus.",
+        "handling": "Stockage à sec, entre 8 et 12 °C, à l'abri de la lumière. Très bonne tenue (15–30 jours selon référence)."
+      },
+      "herbes": {
+        "name": "Herbes aromatiques",
+        "description": "Coriandre, persil, menthe, basilic, thym, romarin.",
+        "story": "La menthe naânaâ de Meknès, le basilic genovese de nos serres du Souss, le thym et le romarin sauvages de l'Atlas. Coupe quotidienne, bottes calibrées au poids.",
+        "uses": "Tajines, salades, infusions de thé à la menthe, garnitures, huiles aromatisées, mignardises.",
+        "handling": "Livrées en bottes humidifiées, à conserver entre 4 et 8 °C dans un linge humide. Durée 2–4 jours."
+      }
+    },
+    "months": {
+      "1": "Jan", "2": "Fév", "3": "Mar", "4": "Avr", "5": "Mai", "6": "Juin",
+      "7": "Juil", "8": "Août", "9": "Sep", "10": "Oct", "11": "Nov", "12": "Déc"
+    },
+    "detail": {
+      "backToCatalogue": "Retour au catalogue",
+      "category": "Catégorie",
+      "specs": "Caractéristiques",
+      "story": "Origine & terroir",
+      "uses": "Recommandations en cuisine",
+      "handling": "Conservation",
+      "seasonality": "Calendrier de saison",
+      "inSeasonNow": "En saison actuellement",
+      "outOfSeasonNow": "Hors saison ce mois-ci",
+      "related": "Autres références dans cette catégorie",
+      "quoteThisProduct": "Demander un devis pour cette référence",
+      "downloadFiche": "Télécharger la fiche produit"
+    }
+  },
+  "why": {
+    "title": "Pourquoi Mediterra Fresh",
+    "subtitle": "Quatre engagements opérationnels qui changent votre quotidien en cuisine.",
+    "sections": {
+      "coldChain": {
+        "title": "Chaîne du froid maîtrisée",
+        "body": "Stockage à 4°C dans nos chambres froides à Sidi Ghanem, transport en camions frigorifiques contrôlés (sondes connectées), rupture de charge minimale. Conformité HACCP."
+      },
+      "delivery": {
+        "title": "Livraison quotidienne, créneau garanti",
+        "body": "Marrakech intra-muros, Palmeraie, Targa : 6h–10h. Agadir baie et Founty : 6h–10h. Créneau confirmé la veille par WhatsApp. Livraison 7j/7 en haute saison touristique sur demande."
+      },
+      "moq": {
+        "title": "Commande minimum accessible",
+        "body": "À partir de 800 MAD HT pour Marrakech, 1 000 MAD HT pour Agadir. Pas de minimum par référence. Idéal pour les petits riads comme pour les grands resorts."
+      },
+      "payment": {
+        "title": "Conditions de paiement souples",
+        "body": "Comptant à la livraison, virement à 15 ou 30 jours selon dossier, paiement par carte sur demande. Facturation hebdomadaire ou mensuelle adaptée à votre cycle."
+      },
+      "certifications": {
+        "title": "Certifications et traçabilité",
+        "body": "ONSSA pour tous nos produits. GlobalGAP et Bio Maroc en option pour les références éligibles. Fiche traçabilité jointe à chaque livraison sur demande."
+      },
+      "zones": {
+        "title": "Zones de livraison",
+        "body": "Marrakech (rayon 30 km), Agadir (rayon 25 km), Essaouira et Taroudant sur demande. Étude de votre zone si vous êtes ailleurs au Maroc."
+      }
+    },
+    "stats": {
+      "items": [
+        { "value": "80+", "label": "références au catalogue" },
+        { "value": "< 24h", "label": "du champ à votre cuisine" },
+        { "value": "6j/7", "label": "livraison standard" },
+        { "value": "100%", "label": "produits ONSSA" }
+      ]
+    }
+  },
+  "references": {
+    "title": "Références",
+    "subtitle": "La confiance se gagne. Nous publions ici les établissements qui acceptent d'être nommés — jamais sans accord écrit.",
+    "empty": "Notre équipe commerciale construit ses premières références. Vous pouvez être l'un des établissements pilotes — contactez-nous pour des conditions préférentielles.",
+    "segmentsTitle": "Les cuisines que nous fournissons",
+    "segmentsBody": "Notre offre est calibrée pour des établissements qui ne tolèrent pas l'à-peu-près sur la qualité. Voici les six segments où nous nous engageons à livrer chaque matin.",
+    "segments": {
+      "hotels": { "title": "Hôtels & resorts 4–5 étoiles", "body": "Buffets de petit-déjeuner réguliers, banquets, room-service. Calibres uniformes, livraison avant 9h." },
+      "riads": { "title": "Riads & maisons d'hôtes", "body": "Volumes plus modestes, exigences identiques. Livraison du lundi au samedi, en intra-muros Marrakech." },
+      "restaurants": { "title": "Restaurants gastronomiques", "body": "Travail en circuit court, calibres précis, herbes en bouquet, fruits de saison rares sur demande." },
+      "patisseries": { "title": "Pâtisseries & boulangeries fines", "body": "Fruits rouges, agrumes, fruits exotiques sourcés pour la pâtisserie. Calibres serrés, fraîcheur certifiée." },
+      "juiceBars": { "title": "Bars à jus & cafés santé", "body": "Volumes journaliers d'agrumes, de fruits saisonniers, de légumes pour smoothies, à un coût matière maîtrisé." },
+      "catering": { "title": "Catering événementiel", "body": "Mariages, séminaires, cocktails. Devis volumes ponctuels, livraison sur site, packaging sur mesure." }
+    },
+    "pilotEyebrow": "Programme pilote 2025",
+    "pilotTitle": "Soyez parmi nos premiers partenaires.",
+    "pilotBody": "Nous démarrons avec un nombre limité de clients pour garantir un niveau de service que nous ne dégraderons pas. En contrepartie, nos partenaires pilotes bénéficient de conditions et d'un accompagnement renforcés pendant 6 mois.",
+    "pilotBenefits": [
+      "Tarifs préférentiels verrouillés pendant 6 mois",
+      "Livraison 6h–10h prioritaire, fenêtre de 30 min",
+      "Numéro WhatsApp direct du responsable d'exploitation",
+      "Audit gratuit de votre carte avec recommandations saisonnières",
+      "Reporting mensuel : taux de service, économies vs. concurrents"
+    ],
+    "pilotCta": "Postuler comme partenaire pilote",
+    "commitmentsEyebrow": "Engagements vérifiables",
+    "commitmentsTitle": "Ce sur quoi nous nous engageons par écrit.",
+    "commitments": [
+      { "value": "≤ 2h", "label": "Réponse à toute demande de devis, du lundi au samedi" },
+      { "value": "6h–10h", "label": "Fenêtre de livraison quotidienne dans Marrakech intra-muros et baie d'Agadir" },
+      { "value": "≥ 98%", "label": "Taux de service contractuel, mesuré et publié chaque mois" },
+      { "value": "100%", "label": "Marchandise tracée — origine, lot, date de récolte sur chaque BL" }
+    ]
+  },
+  "blog": {
+    "title": "Actualités & calendriers",
+    "subtitle": "Calendriers de saison, conseils produit, et coulisses de nos terroirs.",
+    "readMore": "Lire l'article",
+    "publishedOn": "Publié le",
+    "comingSoon": "À paraître",
+    "categories": {
+      "seasonality": "Saisonnalité",
+      "supply": "Approvisionnement",
+      "calibres": "Calibres & qualité"
+    },
+    "minutes": "min de lecture",
+    "newsletterTitle": "Recevez nos calendriers saisonniers",
+    "newsletterBody": "Une lettre mensuelle, sans bruit : disponibilités du moment, conseils produit, dates clés."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Réponse sous 2 heures ouvrées, du lundi au samedi.",
+    "channels": {
+      "whatsapp": "WhatsApp Business — réponse rapide, en 3 langues",
+      "phone": "Téléphone — équipe commerciale",
+      "email": "Email — devis et questions techniques",
+      "address": "Adresse — visite sur rendez-vous"
+    },
+    "form": {
+      "title": "Formulaire de contact",
+      "subtitle": "Décrivez votre besoin, nous revenons vers vous avec une proposition.",
+      "name": "Nom complet",
+      "company": "Établissement / société",
+      "role": "Fonction",
+      "city": "Ville",
+      "phone": "Téléphone",
+      "email": "Email professionnel",
+      "message": "Votre besoin (volumes, fréquence, produits)",
+      "consent": "J'accepte d'être recontacté concernant ma demande. Mes données ne seront pas cédées à des tiers (Loi 09-08).",
+      "submit": "Envoyer la demande",
+      "success": "Merci, votre demande est bien reçue. Nous revenons vers vous sous 2 heures ouvrées.",
+      "error": "Un problème est survenu. Merci de nous contacter directement par WhatsApp."
+    }
+  },
+  "footer": {
+    "tagline": "Fournisseur B2B de fruits et légumes frais — Marrakech & Agadir.",
+    "navTitle": "Navigation",
+    "legalTitle": "Informations légales",
+    "contactTitle": "Contact",
+    "newsletter": {
+      "title": "Lettre saisonnière",
+      "body": "Calendriers de récolte et nouveautés du catalogue, une fois par mois.",
+      "placeholder": "Votre email professionnel",
+      "submit": "S'inscrire"
+    },
+    "links": {
+      "mentions": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "cgv": "Conditions générales de vente",
+      "cookies": "Cookies"
+    },
+    "rights": "Tous droits réservés."
+  },
+  "legal": {
+    "mentions": {
+      "title": "Mentions légales",
+      "lastUpdate": "Dernière mise à jour"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "lastUpdate": "Dernière mise à jour"
+    },
+    "cgv": {
+      "title": "Conditions générales de vente",
+      "lastUpdate": "Dernière mise à jour"
+    }
+  },
+  "common": {
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "openWhatsapp": "Ouvrir WhatsApp",
+    "back": "Retour"
+  }
+}
