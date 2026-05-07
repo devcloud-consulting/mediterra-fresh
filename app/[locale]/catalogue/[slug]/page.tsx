@@ -10,7 +10,6 @@ import {
   products,
   getProduct,
   relatedProducts,
-  categoryImage,
   type Locale,
 } from '@/lib/products';
 import { routing } from '@/i18n/routing';
@@ -52,7 +51,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${product.name[safeLocale]} — ${siteConfig.name}`,
       description,
-      images: [{ url: categoryImage(product.category) }],
+      images: [{ url: `/images/products/${product.slug}.jpg` }],
     },
   };
 }
@@ -83,7 +82,7 @@ export default async function ProductDetailPage({
 
   const currentMonth = new Date().getMonth() + 1;
   const isInSeason = product.seasonality.includes(currentMonth);
-  const productImage = categoryImage(category);
+  const productImage = `/images/products/${product.slug}.jpg`;
   const related = relatedProducts(product, 3);
   const accent = product.accent ?? '#5b722c';
 
