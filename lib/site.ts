@@ -14,9 +14,9 @@ export const siteConfig = {
     ar: 'فواكه وخضروات طازجة — من المنتج المغربي إلى مطبخك',
   },
   description: {
-    fr: 'Fournisseur B2B de fruits et légumes frais à Marrakech et Agadir. Hôtels, restaurants, pâtisseries, riads. Chaîne du froid maîtrisée, livraison quotidienne.',
-    en: 'B2B fresh produce supplier in Marrakech and Agadir. Hotels, restaurants, pâtisseries, riads. Cold chain controlled, daily delivery.',
-    ar: 'مورد B2B للفواكه والخضروات الطازجة في مراكش وأكادير. فنادق، مطاعم، حلويات.',
+    fr: "Fournisseur B2B de fruits et légumes frais à Agadir. Hôtels, restaurants, pâtisseries, riads. Chaîne du froid maîtrisée, livraison quotidienne.",
+    en: 'B2B fresh produce supplier in Agadir. Hotels, restaurants, pâtisseries, riads. Cold chain controlled, daily delivery.',
+    ar: 'مورد B2B للفواكه والخضروات الطازجة في أكادير. فنادق، مطاعم، حلويات.',
   },
   url: 'https://mediterra-fresh.com',
   // Replace with real numbers before launch
@@ -26,14 +26,14 @@ export const siteConfig = {
   email: 'contact@mediterra-fresh.com',
   emailSales: 'commandes@mediterra-fresh.com',
   address: {
-    street: 'Zone industrielle Sidi Ghanem',
-    city: 'Marrakech',
-    postal: '40000',
+    street: 'Zone industrielle Tassila',
+    city: 'Agadir',
+    postal: '80000',
     country: 'Maroc',
     countryCode: 'MA',
   },
-  // GPS coords for Sidi Ghanem industrial zone, Marrakech (placeholder)
-  geo: { lat: 31.6794, lon: -8.0461 },
+  // GPS coords for Agadir (placeholder)
+  geo: { lat: 30.4278, lon: -9.5981 },
   hours: {
     fr: 'Lun – Sam, 06h00 – 18h00',
     en: 'Mon – Sat, 6:00 AM – 6:00 PM',
@@ -41,10 +41,11 @@ export const siteConfig = {
   },
   // Service area (cities) — also used for LocalBusiness areaServed
   deliveryZones: [
-    { city: 'Marrakech', radiusKm: 30, note: '' },
-    { city: 'Agadir', radiusKm: 25, note: '' },
-    { city: 'Essaouira', radiusKm: 0, note: 'sur demande' },
+    { city: 'Agadir', radiusKm: 30, note: '' },
+    { city: 'Inezgane', radiusKm: 0, note: 'inclus' },
+    { city: 'Aït Melloul', radiusKm: 0, note: 'inclus' },
     { city: 'Taroudant', radiusKm: 0, note: 'sur demande' },
+    { city: 'Essaouira', radiusKm: 0, note: 'sur demande' },
   ] as ReadonlyArray<{ city: string; radiusKm: number; note: string }>,
   social: {
     instagram: 'https://instagram.com/mediterrafresh',
@@ -53,7 +54,7 @@ export const siteConfig = {
   },
   // Legal placeholders — replace with real values
   legal: {
-    rc: 'RC Marrakech 000000',
+    rc: 'RC Agadir 000000',
     ice: '000000000000000',
     if: '00000000',
     cnss: '000000',
