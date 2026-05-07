@@ -18,7 +18,7 @@ export async function generateMetadata({
 const PLACEHOLDER_POSTS = [
   {
     slug: 'calendrier-saisonnier-printemps',
-    image: '/images/categories/cat-fruits-rouges.jpg',
+    image: '/images/categories/cat-fruits.jpg',
     category: 'seasonality',
     minutes: 6,
     fr: {
@@ -59,7 +59,7 @@ const PLACEHOLDER_POSTS = [
   },
   {
     slug: 'calibres-pour-petit-dejeuner-riad',
-    image: '/images/categories/cat-agrumes.jpg',
+    image: '/images/categories/cat-fruits.jpg',
     category: 'calibres',
     minutes: 5,
     fr: {
@@ -154,7 +154,7 @@ export default async function BlogPage({
       <section className="relative bg-olive-950 text-cream-50 overflow-hidden">
         <div aria-hidden className="absolute inset-0 opacity-15">
           <Image
-            src="/images/categories/cat-herbes.jpg"
+            src="/images/categories/cat-legumes.jpg"
             alt=""
             fill
             sizes="100vw"

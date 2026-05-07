@@ -26,7 +26,7 @@ export function LegalLayout({ title, lastUpdate, lastUpdateLabel, toc, children 
             <div className="lg:col-span-5">
               <div className="relative aspect-[5/4] rounded-3xl overflow-hidden bg-olive-100">
                 <Image
-                  src="/images/categories/cat-herbes.jpg"
+                  src="/images/categories/cat-legumes.jpg"
                   alt=""
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"

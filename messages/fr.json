@@ -115,54 +115,19 @@
       "globalgap": "GlobalGAP"
     },
     "categories": {
-      "agrumes": {
-        "name": "Agrumes",
-        "description": "Oranges, mandarines, citrons et clémentines du Souss et de Berkane.",
-        "story": "Berkane, à l'est, et la plaine du Souss au sud : deux terroirs marocains qui produisent les agrumes les plus recherchés du bassin méditerranéen. Calibres serrés, jutosité élevée, traçabilité parcellaire.",
-        "uses": "Pâtisseries, bars à jus, plateaux petit-déjeuner, sauces et vinaigrettes au restaurant.",
-        "handling": "Conserver entre 5 et 8 °C. À sortir de la chambre froide une heure avant service pour relâcher les arômes."
+      "fruits": {
+        "name": "Fruits",
+        "description": "Framboise, myrtille, banane, mangue, avocat, orange, kiwi, ananas.",
+        "story": "Une sélection de fruits frais combinant origines marocaines (Gharb, Souss-Massa) et imports choisis selon la saison.",
+        "uses": "Pâtisserie, bars à jus, plateaux de petit-déjeuner, salades de fruits, desserts.",
+        "handling": "Chaîne du froid maîtrisée. Stockage entre 4 et 10 °C selon la référence."
       },
-      "fruits-rouges": {
-        "name": "Fruits rouges",
-        "description": "Fraises de Larache, framboises et myrtilles du Gharb.",
-        "story": "Le Gharb et Larache concentrent l'essentiel de la production marocaine de fruits rouges. Récolte manuelle au plus juste de la maturité, conditionnement en barquettes refroidies sous 2 heures.",
-        "uses": "Pâtisserie haut de gamme, dressage de desserts, smoothies, mignardises de room-service.",
-        "handling": "Chaîne du froid impérative à 2–4 °C. Durée de vie 3 à 5 jours. Ne jamais laver avant stockage."
-      },
-      "fruits-exotiques": {
-        "name": "Fruits exotiques",
-        "description": "Avocats, mangues, fruits de la passion, papayes.",
-        "story": "L'avocat Hass marocain (Gharb, Loukkos) s'impose désormais sur les cartes des palaces. Pour les autres exotiques, nous complétons par des sources sélectionnées (Côte d'Ivoire, Pérou, Brésil) selon la saison.",
-        "uses": "Tartares, ceviches, plateaux de fruits, smoothies signature, accompagnements de poissons.",
-        "handling": "Mûrissement contrôlé sur demande (avocat, mangue). Livraison à différents stades de maturité selon votre planning de service."
-      },
-      "fruits-saison": {
-        "name": "Fruits de saison",
-        "description": "Pommes, poires, raisins, melons et pastèques marocains.",
-        "story": "Les vergers de Midelt et d'Imouzzer pour les pommes et poires d'altitude, Doukkala et Souss pour les melons et raisins. Une saisonnalité riche qui couvre toute l'année avec rotation des variétés.",
-        "uses": "Buffets de petit-déjeuner, plateaux de service, salades de fruits, desserts de saison.",
-        "handling": "Stockage entre 4 et 10 °C selon le fruit. Pommes et poires se conservent jusqu'à 30 jours."
-      },
-      "legumes-feuilles": {
-        "name": "Légumes feuilles",
-        "description": "Salades, épinards, blettes, choux.",
-        "story": "Production en circuit court depuis le Haouz et Skhirat, en grande partie sous serre pour garantir la constance qualitative et la disponibilité hors saison naturelle.",
-        "uses": "Mises en bouche, salades, garnitures, smoothies verts, pestos.",
-        "handling": "Chaîne du froid à 2–4 °C. Hydratation contrôlée pendant le transport. Durée optimale 3–5 jours."
-      },
-      "legumes-racines": {
-        "name": "Légumes racines & bulbes",
-        "description": "Carottes, pommes de terre, oignons, navets, betteraves.",
-        "story": "Doukkala, Berrechid, Saïs : les grands bassins marocains de légumes racines. Calibres réguliers, terre brossée, conditionnement adapté aux cuisines (sacs, caisses, palox).",
-        "uses": "Mijotés, garnitures, légumes glacés, soupes, condiments, jus.",
-        "handling": "Stockage à sec, entre 8 et 12 °C, à l'abri de la lumière. Très bonne tenue (15–30 jours selon référence)."
-      },
-      "herbes": {
-        "name": "Herbes aromatiques",
-        "description": "Coriandre, persil, menthe, basilic, thym, romarin.",
-        "story": "La menthe naânaâ de Meknès, le basilic genovese de nos serres du Souss, le thym et le romarin sauvages de l'Atlas. Coupe quotidienne, bottes calibrées au poids.",
-        "uses": "Tajines, salades, infusions de thé à la menthe, garnitures, huiles aromatisées, mignardises.",
-        "handling": "Livrées en bottes humidifiées, à conserver entre 4 et 8 °C dans un linge humide. Durée 2–4 jours."
+      "legumes": {
+        "name": "Légumes",
+        "description": "Tomate allongée, tomate cerise allongée, poivrons, concombre, carottes, pomme de terre.",
+        "story": "Production marocaine de saison (Souss, Doukkala, Loukkos) — calibres réguliers et conditionnement adapté aux cuisines professionnelles.",
+        "uses": "Mises en bouche, garnitures, mijotés, soupes, salades.",
+        "handling": "Stockage adapté à chaque référence : entre 8 et 12 °C à sec pour les racines, 2–8 °C pour les légumes frais."
       }
     },
     "months": {

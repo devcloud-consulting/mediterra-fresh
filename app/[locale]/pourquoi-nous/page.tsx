@@ -19,9 +19,9 @@ export async function generateMetadata({
 const SECTIONS = [
   { key: 'coldChain', icon: '❄', image: '/images/process/process-coldroom.jpg' },
   { key: 'delivery', icon: '◷', image: '/images/process/process-delivery.jpg' },
-  { key: 'moq', icon: '⚖', image: '/images/categories/cat-fruits-saison.jpg' },
-  { key: 'payment', icon: '⌖', image: '/images/categories/cat-agrumes.jpg' },
-  { key: 'certifications', icon: '✓', image: '/images/categories/cat-fruits-rouges.jpg' },
+  { key: 'moq', icon: '⚖', image: '/images/categories/cat-fruits.jpg' },
+  { key: 'payment', icon: '⌖', image: '/images/categories/cat-fruits.jpg' },
+  { key: 'certifications', icon: '✓', image: '/images/categories/cat-fruits.jpg' },
   { key: 'zones', icon: '◉', image: '/images/process/process-orchard.jpg' },
 ] as const;
 

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { categoryImage, type Product, type Locale } from '@/lib/products';
+import { type Product, type Locale } from '@/lib/products';
 
 type Props = {
   product: Product;
@@ -22,7 +22,7 @@ export function ProductCard({
   const t = useTranslations('catalogue');
   const isInSeason = product.seasonality.includes(currentMonth);
   const accent = product.accent ?? '#5b722c';
-  const image = categoryImage(product.category);
+  const image = `/images/products/${product.slug}.jpg`;
 
   return (
     <article
