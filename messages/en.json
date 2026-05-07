@@ -23,7 +23,7 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "B2B supplier • Marrakech & Agadir",
+      "eyebrow": "B2B supplier • Agadir",
       "title": "Moroccan freshness, delivered to your kitchen every morning.",
       "subtitle": "Fruits and vegetables hand-picked from the Souss region and Moroccan terroirs, calibrated to your specs. For hotels, restaurants, pâtisseries, and riads.",
       "primaryCta": "Get a free sample basket",
@@ -43,7 +43,7 @@
       "items": [
         {
           "title": "Picked yesterday, delivered this morning",
-          "body": "Harvest D-1, packing in the evening, delivery between 6 and 10 AM in Marrakech intra-muros and Agadir bay."
+          "body": "Harvest D-1, packing in the evening, delivery between 6 and 10 AM across the Agadir bay, Inezgane and Aït Melloul."
         },
         {
           "title": "Custom calibres and packaging",
@@ -84,12 +84,12 @@
         {
           "tag": "Step 02 — D-1, evening",
           "title": "Calibrated and packed at 4 °C",
-          "body": "Reception in Sidi Ghanem, visual and organoleptic QC, calibres matched to your spec sheet, packing in HACCP-compliant cold rooms."
+          "body": "Reception in Tassila, visual and organoleptic QC, calibres matched to your spec sheet, packing in HACCP-compliant cold rooms."
         },
         {
           "tag": "Step 03 — Day, 6–10 AM",
           "title": "Delivered before service",
-          "body": "Probe-monitored refrigerated vans, slot confirmed the day before via WhatsApp. Marrakech intra-muros and Agadir bay, six days a week."
+          "body": "Probe-monitored refrigerated vans, slot confirmed the day before via WhatsApp. Agadir bay, Inezgane and Aït Melloul, six days a week."
         }
       ],
       "cta": "See our process"
@@ -155,15 +155,15 @@
     "sections": {
       "coldChain": {
         "title": "Controlled cold chain",
-        "body": "Storage at 4°C in our cold rooms in Sidi Ghanem, transport in monitored refrigerated vans (connected probes), minimal handling. HACCP-compliant."
+        "body": "Storage at 4°C in our cold rooms in Tassila, transport in monitored refrigerated vans (connected probes), minimal handling. HACCP-compliant."
       },
       "delivery": {
         "title": "Daily delivery, guaranteed slot",
-        "body": "Marrakech intra-muros, Palmeraie, Targa: 6–10 AM. Agadir bay and Founty: 6–10 AM. Slot confirmed the day before via WhatsApp. 7-day delivery available in high tourist season."
+        "body": "Agadir bay, Founty, Talborjt, Inezgane, Aït Melloul: 6–10 AM. Slot confirmed the day before via WhatsApp. 7-day delivery available in high tourist season."
       },
       "moq": {
         "title": "Accessible minimum order",
-        "body": "From 800 MAD ex-VAT in Marrakech, 1,000 MAD ex-VAT in Agadir. No minimum per SKU. Works for small riads and large resorts alike."
+        "body": "From 800 MAD ex-VAT for the Agadir bay. No minimum per SKU. Works for small riads and large resorts alike."
       },
       "payment": {
         "title": "Flexible payment terms",
@@ -175,7 +175,7 @@
       },
       "zones": {
         "title": "Delivery zones",
-        "body": "Marrakech (30 km radius), Agadir (25 km radius), Essaouira and Taroudant on request. We assess your zone if you're elsewhere in Morocco."
+        "body": "Agadir and the bay (30 km radius — Inezgane, Aït Melloul, Founty included), Taroudant and Essaouira on request. We assess your zone if you're elsewhere in Morocco."
       }
     },
     "stats": {
@@ -195,7 +195,7 @@
     "segmentsBody": "Our offer is calibrated for venues that don't tolerate compromise on quality. Here are the six segments we commit to deliver every morning.",
     "segments": {
       "hotels": { "title": "4–5 star hotels & resorts", "body": "Daily breakfast buffets, banquets, room service. Uniform calibres, delivery before 9 a.m." },
-      "riads": { "title": "Riads & guesthouses", "body": "Smaller volumes, identical standards. Monday–Saturday delivery within central Marrakech." },
+      "riads": { "title": "Riads & guesthouses", "body": "Smaller volumes, identical standards. Monday–Saturday delivery within the Agadir bay." },
       "restaurants": { "title": "Fine-dining restaurants", "body": "Short-circuit sourcing, precise calibres, bouquet herbs, rare seasonal fruits on request." },
       "patisseries": { "title": "Pastries & artisan bakeries", "body": "Berries, citrus, exotics sourced for pastry work. Tight calibres, certified freshness." },
       "juiceBars": { "title": "Juice bars & wellness cafés", "body": "Daily citrus and seasonal fruit volumes, smoothie-grade vegetables, controlled food cost." },
@@ -216,7 +216,7 @@
     "commitmentsTitle": "What we put in writing.",
     "commitments": [
       { "value": "≤ 2h", "label": "Response to any quote request, Monday to Saturday" },
-      { "value": "6–10 a.m.", "label": "Daily delivery window across central Marrakech and the Agadir bay" },
+      { "value": "6–10 a.m.", "label": "Daily delivery window across the Agadir bay" },
       { "value": "≥ 98%", "label": "Contractual service rate, measured and reported monthly" },
       { "value": "100%", "label": "Traceable goods — origin, batch, harvest date on every delivery slip" }
     ]
@@ -262,7 +262,7 @@
     }
   },
   "footer": {
-    "tagline": "B2B fresh produce supplier — Marrakech & Agadir.",
+    "tagline": "B2B fresh produce supplier — Agadir.",
     "navTitle": "Navigation",
     "legalTitle": "Legal",
     "contactTitle": "Contact",

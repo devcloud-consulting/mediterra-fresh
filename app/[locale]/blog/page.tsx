@@ -38,22 +38,22 @@ const PLACEHOLDER_POSTS = [
     },
   },
   {
-    slug: 'haute-saison-touristique-marrakech',
+    slug: 'haute-saison-touristique-agadir',
     image: '/images/process/process-coldroom.jpg',
     category: 'supply',
     minutes: 8,
     fr: {
-      title: 'Haute saison à Marrakech : préparer ses approvisionnements',
+      title: 'Haute saison à Agadir : préparer ses approvisionnements',
       excerpt:
         "Comment lisser les pics de demande pendant Pâques, mai et la rentrée 2025 sans rupture en cuisine.",
     },
     en: {
-      title: 'High season in Marrakech: getting your supply right',
+      title: 'High season in Agadir: getting your supply right',
       excerpt:
         'How to smooth out demand peaks during Easter, May, and the autumn rebound without a kitchen stockout.',
     },
     ar: {
-      title: 'الموسم العالي في مراكش: التحضير للتوريد',
+      title: 'الموسم العالي في أكادير: التحضير للتوريد',
       excerpt: 'كيف نخفف ذروات الطلب خلال عيد الفصح وماي والدخول دون نفاد في المطبخ.',
     },
   },

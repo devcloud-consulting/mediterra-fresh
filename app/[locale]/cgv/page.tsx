@@ -53,8 +53,8 @@ function FR() {
         Toute commande, qu&apos;elle soit passée par téléphone, WhatsApp, email
         ou via le site, est ferme et définitive après confirmation écrite du
         Fournisseur. Le Client s&apos;engage à respecter le minimum de commande
-        applicable à sa zone : 800 MAD HT pour Marrakech, 1 000 MAD HT pour
-        Agadir, sauf dérogation expresse.
+        applicable : 800 MAD HT pour Agadir et la baie, sauf dérogation
+        expresse.
       </p>
 
       <h3>Article 3 — Prix</h3>
@@ -67,8 +67,8 @@ function FR() {
 
       <h3>Article 4 — Livraison</h3>
       <p>
-        La livraison s&apos;effectue dans les zones desservies (Marrakech, Agadir,
-        et autres villes sur demande), entre 6h et 10h du lundi au samedi.
+        La livraison s&apos;effectue dans les zones desservies (Agadir, Inezgane,
+        Aït Melloul, et autres villes sur demande), entre 6h et 10h du lundi au samedi.
         Le créneau précis est confirmé par WhatsApp la veille. Le Fournisseur ne
         peut être tenu responsable d&apos;un retard imputable à un cas de force
         majeure.
@@ -120,7 +120,7 @@ function FR() {
       <p>
         Les présentes CGV sont soumises au droit marocain. À défaut d&apos;accord
         amiable, tout litige relatif à leur exécution sera de la compétence
-        exclusive du tribunal de commerce de Marrakech.
+        exclusive du tribunal de commerce d&apos;Agadir.
       </p>
     </>
   );
@@ -140,8 +140,8 @@ function EN() {
       <p>
         Any order placed by phone, WhatsApp, email or through the website becomes
         binding upon written confirmation by the Supplier. The Client agrees to
-        the applicable minimum order: MAD 800 ex-VAT for Marrakech, MAD 1,000
-        ex-VAT for Agadir, save express derogation.
+        the applicable minimum order: MAD 800 ex-VAT for Agadir and the bay,
+        save express derogation.
       </p>
 
       <h3>Article 3 — Prices</h3>
@@ -197,7 +197,7 @@ function EN() {
       <p>
         These Terms are governed by Moroccan law. Failing amicable settlement,
         any dispute falls under the exclusive jurisdiction of the Commercial
-        Court of Marrakech.
+        Court of Agadir.
       </p>
     </>
   );
@@ -216,7 +216,7 @@ function AR() {
       <h3>المادة 2 — الطلب</h3>
       <p>
         كل طلب عبر الهاتف أو واتساب أو البريد أو الموقع يصبح نهائياً بعد التأكيد
-        الكتابي من المورد. الحد الأدنى للطلب: 800 درهم لمراكش، 1000 درهم لأكادير.
+        الكتابي من المورد. الحد الأدنى للطلب: 800 درهم لأكادير وخليجها.
       </p>
 
       <h3>المادة 3 — الأسعار</h3>
@@ -244,8 +244,8 @@ function AR() {
 
       <h3>المادة 7 — القانون المطبق</h3>
       <p>
-        تخضع هذه الشروط للقانون المغربي. تختص المحكمة التجارية بمراكش بالنظر في
-        أي نزاع.
+        تخضع هذه الشروط للقانون المغربي. تختص المحكمة التجارية بأكادير بالنظر
+        في أي نزاع.
       </p>
     </>
   );

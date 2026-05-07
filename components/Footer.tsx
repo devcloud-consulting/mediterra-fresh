@@ -89,7 +89,7 @@ export function Footer() {
         <div className="border-t border-cream-100/10">
           <div className="py-6 text-xs text-cream-200/55 flex flex-col sm:flex-row justify-between gap-2">
             <p>© {year} {siteConfig.legalName}. {t('rights')}</p>
-            <p>RC {siteConfig.legal.rc.replace('RC Marrakech ', '')} · ICE {siteConfig.legal.ice}</p>
+            <p>RC {siteConfig.legal.rc.replace('RC Agadir ', '')} · ICE {siteConfig.legal.ice}</p>
           </div>
         </div>
       </div>

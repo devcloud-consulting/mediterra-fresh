@@ -48,7 +48,7 @@ function FR() {
       <p>
         Le site <a href={siteConfig.url}>{siteConfig.url}</a> est édité par{' '}
         <strong>{siteConfig.legalName}</strong>, société à responsabilité limitée
-        de droit marocain, immatriculée au Registre du Commerce de Marrakech sous
+        de droit marocain, immatriculée au Registre du Commerce d&apos;Agadir sous
         le numéro {siteConfig.legal.rc}.
       </p>
       <ul>
@@ -99,7 +99,7 @@ function FR() {
       <h3>6. Loi applicable</h3>
       <p>
         Les présentes mentions légales sont régies par le droit marocain. En cas
-        de litige, compétence est attribuée aux tribunaux de Marrakech.
+        de litige, compétence est attribuée aux tribunaux d&apos;Agadir.
       </p>
     </>
   );
@@ -112,7 +112,7 @@ function EN() {
       <p>
         This website (<a href={siteConfig.url}>{siteConfig.url}</a>) is published
         by <strong>{siteConfig.legalName}</strong>, a Moroccan limited liability
-        company registered with the Marrakech trade register under{' '}
+        company registered with the Agadir trade register under{' '}
         {siteConfig.legal.rc}.
       </p>
       <ul>
@@ -151,7 +151,7 @@ function EN() {
 
       <h3>6. Applicable law</h3>
       <p>
-        These legal notices are governed by Moroccan law. The Marrakech courts
+        These legal notices are governed by Moroccan law. The Agadir courts
         shall have exclusive jurisdiction.
       </p>
     </>
@@ -165,7 +165,7 @@ function AR() {
       <p>
         هذا الموقع (<a href={siteConfig.url}>{siteConfig.url}</a>) ناشره{' '}
         <strong>{siteConfig.legalName}</strong>، شركة ذات مسؤولية محدودة خاضعة
-        للقانون المغربي، مسجلة في السجل التجاري بمراكش تحت رقم{' '}
+        للقانون المغربي، مسجلة في السجل التجاري بأكادير تحت رقم{' '}
         {siteConfig.legal.rc}.
       </p>
       <ul>
@@ -193,7 +193,7 @@ function AR() {
 
       <h3>5. القانون المطبق</h3>
       <p>
-        تخضع هذه الإشعارات للقانون المغربي. وتختص محاكم مراكش بالنظر في أي نزاع.
+        تخضع هذه الإشعارات للقانون المغربي. وتختص محاكم أكادير بالنظر في أي نزاع.
       </p>
     </>
   );
