@@ -17,10 +17,10 @@ export async function generateMetadata({
 
 const SEGMENTS = [
   { key: 'hotels', image: '/images/process/process-coldroom.jpg' },
-  { key: 'riads', image: '/images/categories/cat-herbes.jpg' },
-  { key: 'restaurants', image: '/images/categories/cat-fruits-saison.jpg' },
-  { key: 'patisseries', image: '/images/categories/cat-fruits-rouges.jpg' },
-  { key: 'juiceBars', image: '/images/categories/cat-agrumes.jpg' },
+  { key: 'riads', image: '/images/categories/cat-legumes.jpg' },
+  { key: 'restaurants', image: '/images/categories/cat-fruits.jpg' },
+  { key: 'patisseries', image: '/images/categories/cat-fruits.jpg' },
+  { key: 'juiceBars', image: '/images/categories/cat-fruits.jpg' },
   { key: 'catering', image: '/images/process/process-delivery.jpg' },
 ] as const;
 
