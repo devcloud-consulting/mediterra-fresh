@@ -23,7 +23,7 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Fournisseur B2B • Agadir",
+      "eyebrow": "Fournisseur B2B • Agadir & Marrakech",
       "title": "Le frais marocain, livré chaque matin à votre cuisine.",
       "subtitle": "Fruits et légumes sélectionnés du Souss et des terroirs marocains, calibrés selon vos exigences. Pour hôtels, restaurants, pâtisseries et riads.",
       "primaryCta": "Recevoir un panier d'échantillons",
@@ -43,7 +43,7 @@
       "items": [
         {
           "title": "Cueilli la veille, livré le matin",
-          "body": "Récolte J-1, conditionnement le soir, livraison entre 6h et 10h dans la baie d'Agadir, Inezgane et Aït Melloul."
+          "body": "Récolte J-1, conditionnement le soir, livraison entre 6h et 10h à Agadir, Marrakech, Inezgane et Aït Melloul."
         },
         {
           "title": "Calibres et conditionnements sur mesure",
@@ -89,7 +89,7 @@
         {
           "tag": "Étape 03 — Jour J, 6h–10h",
           "title": "Livré avant le service",
-          "body": "Camions frigorifiques sondés, créneau confirmé la veille par WhatsApp. Agadir baie, Inezgane et Aït Melloul, six jours sur sept."
+          "body": "Camions frigorifiques sondés, créneau confirmé la veille par WhatsApp. Agadir, Marrakech et baie sud, six jours sur sept."
         }
       ],
       "cta": "Voir notre démarche"
@@ -159,11 +159,11 @@
       },
       "delivery": {
         "title": "Livraison quotidienne, créneau garanti",
-        "body": "Agadir baie, Founty, Talborjt, Inezgane, Aït Melloul : 6h–10h. Créneau confirmé la veille par WhatsApp. Livraison 7j/7 en haute saison touristique sur demande."
+        "body": "Agadir et Marrakech : 6h–10h, du lundi au samedi. Créneau confirmé la veille par WhatsApp. Livraison 7j/7 en haute saison touristique sur demande."
       },
       "moq": {
         "title": "Commande minimum accessible",
-        "body": "À partir de 800 MAD HT pour la baie d'Agadir. Pas de minimum par référence. Idéal pour les petits riads comme pour les grands resorts."
+        "body": "À partir de 5 kg pour Agadir et Marrakech. Pas de minimum par référence. Idéal pour les petits riads comme pour les grands resorts."
       },
       "payment": {
         "title": "Conditions de paiement souples",
@@ -175,7 +175,7 @@
       },
       "zones": {
         "title": "Zones de livraison",
-        "body": "Agadir et la baie (rayon 30 km — Inezgane, Aït Melloul, Founty inclus), Taroudant et Essaouira sur demande. Étude de votre zone si vous êtes ailleurs au Maroc."
+        "body": "Agadir et Marrakech (rayon 30 km autour de chaque ville — Inezgane, Aït Melloul, Founty inclus à Agadir), Taroudant et Essaouira sur demande. Étude de votre zone si vous êtes ailleurs au Maroc."
       }
     },
     "stats": {
@@ -195,7 +195,7 @@
     "segmentsBody": "Notre offre est calibrée pour des établissements qui ne tolèrent pas l'à-peu-près sur la qualité. Voici les six segments où nous nous engageons à livrer chaque matin.",
     "segments": {
       "hotels": { "title": "Hôtels & resorts 4–5 étoiles", "body": "Buffets de petit-déjeuner réguliers, banquets, room-service. Calibres uniformes, livraison avant 9h." },
-      "riads": { "title": "Riads & maisons d'hôtes", "body": "Volumes plus modestes, exigences identiques. Livraison du lundi au samedi dans la baie d'Agadir." },
+      "riads": { "title": "Riads & maisons d'hôtes", "body": "Volumes plus modestes, exigences identiques. Livraison du lundi au samedi à Agadir et Marrakech." },
       "restaurants": { "title": "Restaurants gastronomiques", "body": "Travail en circuit court, calibres précis, herbes en bouquet, fruits de saison rares sur demande." },
       "patisseries": { "title": "Pâtisseries & boulangeries fines", "body": "Fruits rouges, agrumes, fruits exotiques sourcés pour la pâtisserie. Calibres serrés, fraîcheur certifiée." },
       "juiceBars": { "title": "Bars à jus & cafés santé", "body": "Volumes journaliers d'agrumes, de fruits saisonniers, de légumes pour smoothies, à un coût matière maîtrisé." },
@@ -216,7 +216,7 @@
     "commitmentsTitle": "Ce sur quoi nous nous engageons par écrit.",
     "commitments": [
       { "value": "≤ 2h", "label": "Réponse à toute demande de devis, du lundi au samedi" },
-      { "value": "6h–10h", "label": "Fenêtre de livraison quotidienne dans la baie d'Agadir" },
+      { "value": "6h–10h", "label": "Fenêtre de livraison quotidienne à Agadir et Marrakech" },
       { "value": "≥ 98%", "label": "Taux de service contractuel, mesuré et publié chaque mois" },
       { "value": "100%", "label": "Marchandise tracée — origine, lot, date de récolte sur chaque BL" }
     ]
@@ -262,7 +262,7 @@
     }
   },
   "footer": {
-    "tagline": "Fournisseur B2B de fruits et légumes frais — Agadir.",
+    "tagline": "Fournisseur B2B de fruits et légumes frais — Agadir & Marrakech.",
     "navTitle": "Navigation",
     "legalTitle": "Informations légales",
     "contactTitle": "Contact",
