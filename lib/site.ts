@@ -14,9 +14,9 @@ export const siteConfig = {
     ar: 'فواكه وخضروات طازجة — من المنتج المغربي إلى مطبخك',
   },
   description: {
-    fr: "Fournisseur B2B de fruits et légumes frais à Agadir. Hôtels, restaurants, pâtisseries, riads. Chaîne du froid maîtrisée, livraison quotidienne.",
-    en: 'B2B fresh produce supplier in Agadir. Hotels, restaurants, pâtisseries, riads. Cold chain controlled, daily delivery.',
-    ar: 'مورد B2B للفواكه والخضروات الطازجة في أكادير. فنادق، مطاعم، حلويات.',
+    fr: "Fournisseur B2B de fruits et légumes frais à Agadir et Marrakech. Hôtels, restaurants, pâtisseries, riads. Chaîne du froid maîtrisée, livraison quotidienne.",
+    en: 'B2B fresh produce supplier in Agadir and Marrakech. Hotels, restaurants, pâtisseries, riads. Cold chain controlled, daily delivery.',
+    ar: 'مورد B2B للفواكه والخضروات الطازجة في أكادير ومراكش. فنادق، مطاعم، حلويات.',
   },
   url: 'https://mediterra-fresh.com',
   // Replace with real numbers before launch
@@ -42,6 +42,7 @@ export const siteConfig = {
   // Service area (cities) — also used for LocalBusiness areaServed
   deliveryZones: [
     { city: 'Agadir', radiusKm: 30, note: '' },
+    { city: 'Marrakech', radiusKm: 30, note: '' },
     { city: 'Inezgane', radiusKm: 0, note: 'inclus' },
     { city: 'Aït Melloul', radiusKm: 0, note: 'inclus' },
     { city: 'Taroudant', radiusKm: 0, note: 'sur demande' },
