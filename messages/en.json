@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "catalogue": "Catalogue",
+    "export": "Export",
     "why": "Why us",
     "references": "References",
     "blog": "News",
@@ -131,8 +132,18 @@
       }
     },
     "months": {
-      "1": "Jan", "2": "Feb", "3": "Mar", "4": "Apr", "5": "May", "6": "Jun",
-      "7": "Jul", "8": "Aug", "9": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+      "1": "Jan",
+      "2": "Feb",
+      "3": "Mar",
+      "4": "Apr",
+      "5": "May",
+      "6": "Jun",
+      "7": "Jul",
+      "8": "Aug",
+      "9": "Sep",
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Dec"
     },
     "detail": {
       "backToCatalogue": "Back to catalogue",
@@ -180,10 +191,22 @@
     },
     "stats": {
       "items": [
-        { "value": "80+", "label": "SKUs in catalogue" },
-        { "value": "< 24h", "label": "from field to kitchen" },
-        { "value": "6 days/wk", "label": "standard delivery" },
-        { "value": "100%", "label": "ONSSA-certified products" }
+        {
+          "value": "80+",
+          "label": "SKUs in catalogue"
+        },
+        {
+          "value": "< 24h",
+          "label": "from field to kitchen"
+        },
+        {
+          "value": "6 days/wk",
+          "label": "standard delivery"
+        },
+        {
+          "value": "100%",
+          "label": "ONSSA-certified products"
+        }
       ]
     }
   },
@@ -194,12 +217,30 @@
     "segmentsTitle": "The kitchens we supply",
     "segmentsBody": "Our offer is calibrated for venues that don't tolerate compromise on quality. Here are the six segments we commit to deliver every morning.",
     "segments": {
-      "hotels": { "title": "4–5 star hotels & resorts", "body": "Daily breakfast buffets, banquets, room service. Uniform calibres, delivery before 9 a.m." },
-      "riads": { "title": "Riads & guesthouses", "body": "Smaller volumes, identical standards. Monday–Saturday delivery in Agadir and Marrakech." },
-      "restaurants": { "title": "Fine-dining restaurants", "body": "Short-circuit sourcing, precise calibres, bouquet herbs, rare seasonal fruits on request." },
-      "patisseries": { "title": "Pastries & artisan bakeries", "body": "Berries, citrus, exotics sourced for pastry work. Tight calibres, certified freshness." },
-      "juiceBars": { "title": "Juice bars & wellness cafés", "body": "Daily citrus and seasonal fruit volumes, smoothie-grade vegetables, controlled food cost." },
-      "catering": { "title": "Event catering", "body": "Weddings, conferences, cocktails. Quotes for one-off volumes, on-site delivery, custom packaging." }
+      "hotels": {
+        "title": "4–5 star hotels & resorts",
+        "body": "Daily breakfast buffets, banquets, room service. Uniform calibres, delivery before 9 a.m."
+      },
+      "riads": {
+        "title": "Riads & guesthouses",
+        "body": "Smaller volumes, identical standards. Monday–Saturday delivery in Agadir and Marrakech."
+      },
+      "restaurants": {
+        "title": "Fine-dining restaurants",
+        "body": "Short-circuit sourcing, precise calibres, bouquet herbs, rare seasonal fruits on request."
+      },
+      "patisseries": {
+        "title": "Pastries & artisan bakeries",
+        "body": "Berries, citrus, exotics sourced for pastry work. Tight calibres, certified freshness."
+      },
+      "juiceBars": {
+        "title": "Juice bars & wellness cafés",
+        "body": "Daily citrus and seasonal fruit volumes, smoothie-grade vegetables, controlled food cost."
+      },
+      "catering": {
+        "title": "Event catering",
+        "body": "Weddings, conferences, cocktails. Quotes for one-off volumes, on-site delivery, custom packaging."
+      }
     },
     "pilotEyebrow": "2025 pilot program",
     "pilotTitle": "Be among our first partners.",
@@ -215,10 +256,22 @@
     "commitmentsEyebrow": "Verifiable commitments",
     "commitmentsTitle": "What we put in writing.",
     "commitments": [
-      { "value": "≤ 2h", "label": "Response to any quote request, Monday to Saturday" },
-      { "value": "6–10 a.m.", "label": "Daily delivery window in Agadir and Marrakech" },
-      { "value": "≥ 98%", "label": "Contractual service rate, measured and reported monthly" },
-      { "value": "100%", "label": "Traceable goods — origin, batch, harvest date on every delivery slip" }
+      {
+        "value": "≤ 2h",
+        "label": "Response to any quote request, Monday to Saturday"
+      },
+      {
+        "value": "6–10 a.m.",
+        "label": "Daily delivery window in Agadir and Marrakech"
+      },
+      {
+        "value": "≥ 98%",
+        "label": "Contractual service rate, measured and reported monthly"
+      },
+      {
+        "value": "100%",
+        "label": "Traceable goods — origin, batch, harvest date on every delivery slip"
+      }
     ]
   },
   "blog": {
@@ -301,5 +354,88 @@
     "hours": "Hours",
     "openWhatsapp": "Open WhatsApp",
     "back": "Back"
+  },
+  "export": {
+    "title": "Export from Morocco to Europe",
+    "subtitle": "Producer-exporter based in Agadir, at the heart of the Souss valley. Moroccan tomatoes, cherry tomatoes, cucumbers and seasonal produce shipped by refrigerated truck to Europe during the European off-season — October to May.",
+    "eyebrow": "Export Morocco → Europe",
+    "cta": {
+      "primary": "Request an export quote",
+      "secondary": "View the catalogue"
+    },
+    "season": {
+      "eyebrow": "Our seasonal window",
+      "title": "October to May — when European production is at its low.",
+      "body": "We produce exactly when your shelves run thin. The Souss climate supports a long primeur season: our tomatoes and cucumbers reach European markets at peak quality, when local supply is constrained."
+    },
+    "products": {
+      "eyebrow": "Priority export range",
+      "title": "Four flagship products, EU-standard calibres and packaging.",
+      "items": {
+        "tomato": {
+          "title": "Long tomato",
+          "body": "Calibres 47–57, 57–67, 67–82 mm. 30×40 wooden tray or 5/6 kg carton. Rolling harvest, guaranteed firmness."
+        },
+        "cherry": {
+          "title": "Long cherry tomato",
+          "body": "Brix ≥ 7. 250 g, 500 g punnets or 2 kg tray. Hand-picked, even calibre."
+        },
+        "cucumber": {
+          "title": "Long cucumber",
+          "body": "Calibres 300–400 g, 400–500 g. 5 kg carton or 10 kg plastic crate. Thin cuticle, smooth skin."
+        },
+        "pepper": {
+          "title": "Peppers",
+          "body": "Red, yellow and green. GG / G calibres. 5 kg tray, 10 kg carton. Available from November."
+        },
+        "orange": {
+          "title": "Maroc Late orange",
+          "body": "Calibres 56–63, 63–70, 70–80 mm. 15 kg case. High juiciness, thin skin. Season March → June."
+        },
+        "avocado": {
+          "title": "Hass avocado",
+          "body": "Calibres 14, 16, 18, 20. 4 kg case. Controlled ripening on request. Season November → April."
+        }
+      }
+    },
+    "commitments": {
+      "eyebrow": "Export format",
+      "title": "Four commitments that simplify your sourcing.",
+      "items": {
+        "minOrder": {
+          "title": "Minimum 1 refrigerated truck",
+          "body": "≈ 20 tonnes, 22 EUR pallets. Weekly or bi-weekly cadence, aligned with your planning. No annual volume commitment."
+        },
+        "coldChain": {
+          "title": "4 °C cold chain guaranteed",
+          "body": "From the Souss packing station to your platform. Probe-monitored trucks, temperature logs available on every delivery."
+        },
+        "compliance": {
+          "title": "EU certifications",
+          "body": "ONSSA (Morocco), GlobalGAP, plot-level traceability. EU phytosanitary certificate on every shipment. Compliant Morocco-origin labelling."
+        },
+        "docs": {
+          "title": "Customs documents prepared",
+          "body": "SAD, EUR.1 certificate, pro-forma invoice, packing list. Direct coordination with your freight forwarder or our referenced carrier."
+        }
+      }
+    },
+    "markets": {
+      "eyebrow": "Target markets",
+      "title": "We currently serve multiple European markets.",
+      "body": "Direct road logistics Agadir → Tanger Med → European port, average transit 3–5 days. Incoterms FCA Agadir or DAP your platform, your choice.",
+      "list": {
+        "france": "France",
+        "belgium": "Belgium",
+        "spain": "Spain",
+        "netherlands": "Netherlands",
+        "germany": "Germany",
+        "uk": "United Kingdom"
+      }
+    },
+    "ctaSection": {
+      "title": "A sourcing opportunity?",
+      "body": "Send us your spec sheet (volumes, calibres, frequency). We'll come back with a detailed export sheet and an FCA or DAP price grid within 48 h."
+    }
   }
 }

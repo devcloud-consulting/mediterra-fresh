@@ -10,6 +10,7 @@ import { siteConfig } from '@/lib/site';
 const NAV_ITEMS = [
   { href: '/', key: 'home' },
   { href: '/catalogue', key: 'catalogue' },
+  { href: '/export', key: 'export' },
   { href: '/pourquoi-nous', key: 'why' },
   { href: '/references', key: 'references' },
   { href: '/blog', key: 'blog' },
