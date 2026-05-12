@@ -4,7 +4,6 @@ import type { Metadata } from 'next';
 import { Container, Section, Eyebrow, Button } from '@/components/ui';
 import { Reveal } from '@/components/Reveal';
 import { Link } from '@/i18n/navigation';
-import { siteConfig } from '@/lib/site';
 
 export async function generateMetadata({
   params,
